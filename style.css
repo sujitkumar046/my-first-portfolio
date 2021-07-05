@@ -3,8 +3,9 @@ body{
 }
 
 .Orange-color{color: orange;}
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 10px;
 }
 .half-width{
     width: 50%;
@@ -25,3 +26,20 @@ section{
     background-image:url(shrestho.jpg)
 }
 .web-dream{color: tomato;}
+.box{
+box-shadow: 5px 5px 10px rgb(107, 183, 235);
+margin-left: 5%;
+margin-right: 5%;
+border-radius: 10px;
+}
+
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan) ;
+    border-image-slice: 1;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(192, 148, 3), rgb(201, 35, 5)) ;
+    border-image-slice: 1; 
+}
